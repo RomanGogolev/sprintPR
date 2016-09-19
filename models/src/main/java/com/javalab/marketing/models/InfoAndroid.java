@@ -1,0 +1,138 @@
+package com.javalab.marketing.models;
+
+public class InfoAndroid {
+    String event_type;
+    String attribution_type;
+    String click_time;
+    String download_time;
+    String install_time;
+    String media_source;
+    String agency;
+    String af_channel;
+    String af_keywords;
+    String campaign;
+    String af_c_id;
+    String af_adset;
+    String af_adset_id;
+    String af_ad;
+    String af_ad_id;
+    String fb_campaign_name;
+    String fb_campaign_id;
+    String fb_adset_name;
+    String fb_adset_id;
+    String fb_adgroup_name;
+    String fb_adgroup_id;
+    String af_ad_type;
+    String af_siteid;
+    String af_sub1;
+    String af_sub2;
+    String af_sub3;
+    String af_sub4;
+    String af_sub5;
+    String http_referrer;
+    String click_url;
+    String af_cost_model;
+    String af_cost_value;
+    String af_cost_currency;
+    String cost_per_install;
+    String is_retargeting;
+    String re_targeting_conversion_type;
+    String country_code;
+    String city;
+    String ip;
+    String wifi;
+    String mac;
+    String operator;
+    String carrier;
+    String language;
+    String appsflyer_device_id;
+    String advertising_id;
+    String android_id;
+    String customer_user_id;
+    String IMEI;
+    String platform;
+    String device_brand;
+    String device_model;
+    String os_version;
+    String app_version;
+    String sdk_version;
+    String app_id;
+    String app_name;
+    String event_time;
+    String event_name;
+    String event_value;
+    String currency;
+    String validated;
+    public InfoAndroid(){
+
+    }
+
+    public InfoAndroid(String advertising_id, String af_ad, String af_ad_id, String af_ad_type, String af_adset, String af_adset_id, String af_c_id, String af_channel, String af_cost_currency, String af_cost_model, String af_cost_value, String af_keywords, String af_siteid, String af_sub1, String af_sub2, String af_sub3, String af_sub4, String af_sub5, String agency, String android_id, String app_id, String app_name, String app_version, String appsflyer_device_id, String attribution_type, String campaign, String carrier, String city, String click_time, String click_url, String cost_per_install, String country_code, String currency, String customer_user_id, String device_brand, String device_model, String download_time, String event_name, String event_time, String event_type, String event_value, String fb_adgroup_id, String fb_adgroup_name, String fb_adset_id, String fb_adset_name, String fb_campaign_id, String fb_campaign_name, String http_referrer, String IMEI, String install_time, String ip, String is_retargeting, String language, String mac, String media_source, String operator, String os_version, String platform, String re_targeting_conversion_type, String sdk_version, String validated, String wifi) {
+        this.advertising_id = advertising_id;
+        this.af_ad = af_ad;
+        this.af_ad_id = af_ad_id;
+        this.af_ad_type = af_ad_type;
+        this.af_adset = af_adset;
+        this.af_adset_id = af_adset_id;
+        this.af_c_id = af_c_id;
+        this.af_channel = af_channel;
+        this.af_cost_currency = af_cost_currency;
+        this.af_cost_model = af_cost_model;
+        this.af_cost_value = af_cost_value;
+        this.af_keywords = af_keywords;
+        this.af_siteid = af_siteid;
+        this.af_sub1 = af_sub1;
+        this.af_sub2 = af_sub2;
+        this.af_sub3 = af_sub3;
+        this.af_sub4 = af_sub4;
+        this.af_sub5 = af_sub5;
+        this.agency = agency;
+        this.android_id = android_id;
+        this.app_id = app_id;
+        this.app_name = app_name;
+        this.app_version = app_version;
+        this.appsflyer_device_id = appsflyer_device_id;
+        this.attribution_type = attribution_type;
+        this.campaign = campaign;
+        this.carrier = carrier;
+        this.city = city;
+        this.click_time = click_time;
+        this.click_url = click_url;
+        this.cost_per_install = cost_per_install;
+        this.country_code = country_code;
+        this.currency = currency;
+        this.customer_user_id = customer_user_id;
+        this.device_brand = device_brand;
+        this.device_model = device_model;
+        this.download_time = download_time;
+        this.event_name = event_name;
+        this.event_time = event_time;
+        this.event_type = event_type;
+        this.event_value = event_value;
+        this.fb_adgroup_id = fb_adgroup_id;
+        this.fb_adgroup_name = fb_adgroup_name;
+        this.fb_adset_id = fb_adset_id;
+        this.fb_adset_name = fb_adset_name;
+        this.fb_campaign_id = fb_campaign_id;
+        this.fb_campaign_name = fb_campaign_name;
+        this.http_referrer = http_referrer;
+        this.IMEI = IMEI;
+        this.install_time = install_time;
+        this.ip = ip;
+        this.is_retargeting = is_retargeting;
+        this.language = language;
+        this.mac = mac;
+        this.media_source = media_source;
+        this.operator = operator;
+        this.os_version = os_version;
+        this.platform = platform;
+        this.re_targeting_conversion_type = re_targeting_conversion_type;
+        this.sdk_version = sdk_version;
+        this.validated = validated;
+        this.wifi = wifi;
+    }
+
+    public String getApp_name() {
+        return app_name;
+    }
+}
