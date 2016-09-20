@@ -24,6 +24,7 @@
         <module>dao</module>
         <module>web</module>
         <module>services</module>
+        <module>docs</module>
     </modules>
 
 </project>
