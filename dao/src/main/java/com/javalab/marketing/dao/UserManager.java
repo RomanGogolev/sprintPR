@@ -93,7 +93,7 @@ private Connection connection;
      */
     public User create(String email,  String username, String password,String roles) throws SQLException {
 
-        PreparedStatement preparedStatement = connection.prepareStatement("insert users set email=?,username=?,password=?,roles=?", Statement.RETURN_GENERATED_KEYS);
+        PreparedStatement preparedStatement = connection.prepareStatement("insert into users(email,username,password,roles) VALUES(?,?,?,?)", Statement.RETURN_GENERATED_KEYS);
         preparedStatement.setString(1, email);
         preparedStatement.setString(2,username);
         preparedStatement.setString(3, password);
@@ -141,9 +141,9 @@ private Connection connection;
 
         ResultSet resultSet = preparedStatement.executeQuery();
 
-        resultSet.next();
 
-        if(!resultSet.first()){
+
+        if(!resultSet.next()){
             return true;
         }else return false;
     }

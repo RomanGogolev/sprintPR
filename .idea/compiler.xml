@@ -37,7 +37,7 @@
       <module name="mg" target="1.8" />
       <module name="models" target="1.8" />
       <module name="services" target="1.8" />
-      <module name="web" target="1.6" />
+      <module name="web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

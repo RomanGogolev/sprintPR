@@ -78,7 +78,7 @@ public class MainController {
 	}
 
 	/*
-	This method show all users in admin panel
+	This method shows all users in admin panel
 	 */
 	@RequestMapping(value = "/admin/users", method = RequestMethod.GET)
 	public String showAllUsers(Model model) throws SQLException, ClassNotFoundException {
@@ -89,8 +89,6 @@ public class MainController {
 		List<User> users = userManager.getAll();
 		OrderManager orderManager = new OrderManager();
 		model.addAttribute("users",users);
-		model.addAttribute("om",orderManager);
-		model.addAttribute("us",userManager);
 		return "admin/users";
 	}
 
@@ -144,7 +142,7 @@ public class MainController {
 			orderManager.payment(id);
 		}else if (order.getState().equals("Выполняется")){
 			orderManager.completeOrder(id);
-			Sender sender = new Sender("thefp0zt@gmail.com", "882501qq");
+			Sender sender = new Sender("thefp0zt@gmail.com", "882501qQ");
 			sender.send("Marketing Group", "Order with ID "+order.getId()+" and Appname "+order.getAppname()+" is complete", user.getEmail());
 		}
 		log.info("Accept order with id "+id+" by "+user.getUsername()+" complete");

@@ -1,28 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ad745e1f-ce63-4ad7-9b2b-36996ea76a78" name="Default" comment="">
-<<<<<<< HEAD
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/docs.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/docs/pom.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web.iml" afterPath="$PROJECT_DIR$/web/web.iml" />
-=======
+    <list default="true" id="68c8a338-020a-4b63-a962-9557915abafc" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_9_4_1206_jdbc42.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/src/test/java/com/javalab/marketing/dao/CustomUserDetailsTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/src/test/java/com/javalab/marketing/dao/OrderManagerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/src/test/java/com/javalab/marketing/dao/SupportManagerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/dao/src/test/java/com/javalab/marketing/dao/UserManagerTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/services/src/test/java/com/javalab/marketing/services/ConnectionPoolTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/src/test/java/com/javalab/marketing/controller/WebAppTest.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/applicationContext.xml" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/applicationContext.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/decorators.xml" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/decorators.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/spring/appServlet/servlet-context.xml" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/spring/application-security.xml" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/spring/application-security.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/spring/root-context.xml" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/spring/root-context.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/admin.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/admin.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/admin/acceptorder.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/admin/acceptorder.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/admin/orders.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/admin/orders.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/admin/support.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/admin/support.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/admin/supports.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/admin/supports.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/admin/users.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/admin/users.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/error/errorpage403.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/error/errorpage403.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/error/errorpage404.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/error/errorpage404.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/error/errorpage500.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/error/errorpage500.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/home.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/home.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/index.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/index.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/secure.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/secure.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/secure/addorder.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/secure/addorder.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/secure/addsupport.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/secure/addsupport.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/secure/monitoring.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/secure/monitoring.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/secure/orders.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/secure/orders.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/secure/pay.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/secure/pay.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/secure/payment.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/secure/payment.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/secure/showsupport.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/secure/showsupport.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/secure/support.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/secure/support.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/user/logout.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/user/logout.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/user/registration.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/user/registration.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/views/user/signin.jsp" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/user/signin.jsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/2gis.jpg" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/2gis.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/LICENSE" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/LICENSE" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/Logo market.png" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/Logo market.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/README.md" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/background.jpg" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/background.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/css/animate.min.css" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/css/animate.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/css/bootstrap.css" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/css/bootstrap.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/css/creative.css" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/css/creative.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/css/ie10-viewport-bug-workaround.css" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/css/ie10-viewport-bug-workaround.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/css/jumbotron-narrow.css" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/css/jumbotron-narrow.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/css/font-awesome.css" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/css/font-awesome.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/css/font-awesome.min.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/fonts/fontawesome-webfont.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/less/animated.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/less/animated.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/less/bordered-pulled.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/less/bordered-pulled.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/less/core.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/less/core.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/less/fixed-width.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/less/fixed-width.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/less/font-awesome.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/less/font-awesome.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/less/icons.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/less/icons.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/less/larger.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/less/larger.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/less/list.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/less/list.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/less/mixins.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/less/mixins.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/less/path.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/less/path.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/less/rotated-flipped.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/less/rotated-flipped.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/less/stacked.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/less/stacked.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/less/variables.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/less/variables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/scss/_animated.scss" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/scss/_animated.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/scss/_bordered-pulled.scss" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/scss/_bordered-pulled.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/scss/_core.scss" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/scss/_core.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/scss/_fixed-width.scss" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/scss/_fixed-width.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/scss/_icons.scss" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/scss/_icons.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/scss/_larger.scss" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/scss/_larger.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/scss/_list.scss" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/scss/_list.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/scss/_mixins.scss" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/scss/_mixins.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/scss/_path.scss" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/scss/_path.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/scss/_rotated-flipped.scss" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/scss/_rotated-flipped.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/scss/_stacked.scss" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/scss/_stacked.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/scss/_variables.scss" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/scss/_variables.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/font-awesome/scss/font-awesome.scss" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/font-awesome/scss/font-awesome.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/img/header.jpg" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/img/header.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/img/header1.jpg" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/img/header1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/img/portfolio/1.jpg" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/img/portfolio/1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/img/portfolio/2.jpg" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/img/portfolio/2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/img/portfolio/3.jpg" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/img/portfolio/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/img/portfolio/4.jpg" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/img/portfolio/4.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/img/portfolio/5.jpg" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/img/portfolio/5.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/img/portfolio/6.jpg" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/img/portfolio/6.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/js/bootstrap.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/js/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/js/bootstrap.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/js/cbpAnimatedHeader.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/js/cbpAnimatedHeader.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/js/classie.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/js/classie.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/js/creative.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/js/creative.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/js/ie-emulation-modes-warning.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/js/ie-emulation-modes-warning.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/js/ie10-viewport-bug-workaround.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/js/ie10-viewport-bug-workaround.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/js/ie8-responsive-file-warning.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/js/ie8-responsive-file-warning.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/js/jquery.easing.min.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/js/jquery.easing.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/js/jquery.fittext.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/js/jquery.fittext.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/js/jquery.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/js/jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/js/jquery.validate.min.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/js/jquery.validate.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/js/wow.min.js" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/js/wow.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/less/creative.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/less/creative.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/less/mixins.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/less/mixins.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/less/variables.less" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/less/variables.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web/src/main/web/resources/phone.png" afterPath="$PROJECT_DIR$/web/src/main/webapp/resources/phone.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
->>>>>>> ae49bee21215bdf8158c9434bda1c582b9e6d967
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/dao.iml" afterPath="$PROJECT_DIR$/dao/dao.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/com/javalab/marketing/dao/OrderManager.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/javalab/marketing/dao/OrderManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/com/javalab/marketing/dao/SupportManager.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/javalab/marketing/dao/SupportManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dao/src/main/java/com/javalab/marketing/dao/UserManager.java" afterPath="$PROJECT_DIR$/dao/src/main/java/com/javalab/marketing/dao/UserManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/docs.iml" afterPath="$PROJECT_DIR$/docs/docs.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/models.iml" afterPath="$PROJECT_DIR$/models/models.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/pom.xml" afterPath="$PROJECT_DIR$/services/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/services.iml" afterPath="$PROJECT_DIR$/services/services.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/services/src/main/java/com/javalab/marketing/services/ConnectionPool.java" afterPath="$PROJECT_DIR$/services/src/main/java/com/javalab/marketing/services/ConnectionPool.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/pom.xml" afterPath="$PROJECT_DIR$/web/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/src/main/java/com/javalab/marketing/controller/MainController.java" afterPath="$PROJECT_DIR$/web/src/main/java/com/javalab/marketing/controller/MainController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/web.iml" afterPath="$PROJECT_DIR$/web/web.iml" />
     </list>
     <ignored path="mg.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
-    <ignored path="$PROJECT_DIR$/db/target/" />
-    <ignored path="$PROJECT_DIR$/models/target/" />
-    <ignored path="$PROJECT_DIR$/services/target/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/web/target/" />
-    <ignored path="$PROJECT_DIR$/dao/target/" />
     <ignored path="$PROJECT_DIR$/docs/target/" />
+    <ignored path="$PROJECT_DIR$/db/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/services/target/" />
+    <ignored path="$PROJECT_DIR$/dao/target/" />
+    <ignored path="$PROJECT_DIR$/models/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,9 +149,16 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -40,37 +166,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-<<<<<<< HEAD
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/pom.xml">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-=======
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
->>>>>>> ae49bee21215bdf8158c9434bda1c582b9e6d967
+            <state relative-caret-position="140">
+              <caret line="97" column="56" selection-start-line="97" selection-start-column="56" selection-end-line="97" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/pom.xml">
+      <file leaf-file-name="users.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/admin/users.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="10" />
-=======
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/pom.xml">
+            <state relative-caret-position="373">
+              <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/javalab/marketing/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
->>>>>>> ae49bee21215bdf8158c9434bda1c582b9e6d967
+            <state relative-caret-position="391">
+              <caret line="90" column="42" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -82,14 +202,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
-    <option name="modificationStamps">
-      <map>
-        <entry key="$USER_HOME$/Desktop/test" value="8610319189950" />
-        <entry key="$USER_HOME$/IdeaProjects/darlGame" value="10046152301770" />
-        <entry key="$PROJECT_DIR$/../IdeaProjects/darlGame" value="10046152301770" />
-        <entry key="$PROJECT_DIR$/../IdeaProjects/springtest" value="1455572545725" />
-      </map>
-    </option>
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -97,8 +209,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/docs/pom.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/index.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/admin/users.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/javalab/marketing/controller/MainController.java" />
       </list>
     </option>
   </component>
@@ -111,14 +224,14 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="$PROJECT_DIR$/../maven" />
+        <option name="mavenHome" value="/usr/share/maven" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
+    <option name="x" value="57" />
+    <option name="y" value="24" />
+    <option name="width" value="1309" />
     <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -128,7 +241,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -146,9 +259,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -163,7 +276,201 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sprintPR" />
+              <option name="myItemId" value="sprintPR-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sprintPR-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sprintPR-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sprintPR-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sprintPR-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sprintPR-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sprintPR-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sprintPR-master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -172,21 +479,22 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
-<<<<<<< HEAD
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs" />
-=======
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
->>>>>>> ae49bee21215bdf8158c9434bda1c582b9e6d967
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -206,8 +514,13 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
       <method />
@@ -226,8 +539,13 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
       <option name="USE_LAST_SELECTED_DEVICE" value="false" />
       <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -312,6 +630,9 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
     <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="myFilePath" />
@@ -350,7 +671,7 @@
           <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
           <option name="launcherType" value="OSDefault" />
           <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
         </LauncherParameters>
       </option>
       <option name="mobileRunTarget" value="Emulator" />
@@ -373,7 +694,7 @@
           <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
           <option name="launcherType" value="OSDefault" />
           <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+          <option name="playerPath" value="/usr/bin/flashplayerdebugger" />
         </LauncherParameters>
       </option>
       <option name="moduleName" value="" />
@@ -479,7 +800,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="db" />
+      <module name="dao" />
       <envs />
       <method />
     </configuration>
@@ -587,68 +908,60 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ad745e1f-ce63-4ad7-9b2b-36996ea76a78" name="Default" comment="" />
-      <created>1474362801482</created>
+      <changelist id="68c8a338-020a-4b63-a962-9557915abafc" name="Default" comment="" />
+      <created>1480528718575</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1474362801482</updated>
-<<<<<<< HEAD
-      <workItem from="1474362805014" duration="1740000" />
-=======
-      <workItem from="1474362805014" duration="1038000" />
->>>>>>> ae49bee21215bdf8158c9434bda1c582b9e6d967
+      <updated>1480528718575</updated>
+      <workItem from="1480528722536" duration="1034000" />
+      <workItem from="1480633630053" duration="327000" />
+      <workItem from="1481021268930" duration="1567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="1740000" />
+    <option name="totallyTimeSpent" value="2928000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="57" y="24" width="1309" height="744" extended-state="6" />
     <editor active="false" />
-=======
-    <option name="totallyTimeSpent" value="1038000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
->>>>>>> ae49bee21215bdf8158c9434bda1c582b9e6d967
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-=======
->>>>>>> ae49bee21215bdf8158c9434bda1c582b9e6d967
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-=======
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
->>>>>>> ae49bee21215bdf8158c9434bda1c582b9e6d967
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38080496" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2739509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.567696" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -658,144 +971,69 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/models/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/pom.xml">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/18172254-ad1b-42f0-acf9-c8f02eac0503/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="18" selection-end-column="10" />
-=======
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://DATABASE/18172254-ad1b-42f0-acf9-c8f02eac0503.SCHEMA:sprintpr.public">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>DATABASE</ID>
+          <OriginalElement>18172254-ad1b-42f0-acf9-c8f02eac0503.SCHEMA:sprintpr.public</OriginalElement>
+          <nodes>
+            <node x="244.0" y="341.0">18172254-ad1b-42f0-acf9-c8f02eac0503.TABLE:sprintpr.public.test</node>
+            <node x="0.0" y="341.0">18172254-ad1b-42f0-acf9-c8f02eac0503.TABLE:sprintpr.public.users</node>
+            <node x="364.0" y="0.0">18172254-ad1b-42f0-acf9-c8f02eac0503.TABLE:sprintpr.public.supports</node>
+            <node x="0.0" y="0.0">18172254-ad1b-42f0-acf9-c8f02eac0503.TABLE:sprintpr.public.orders</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8822553897180763" x="262.0" y="230.0" />
+          <SelectedNodes>
+            <node>18172254-ad1b-42f0-acf9-c8f02eac0503.TABLE:sprintpr.public.test</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Columns</Category>
+            <Category>Key columns</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
->>>>>>> ae49bee21215bdf8158c9434bda1c582b9e6d967
+        <state relative-caret-position="-4156">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-=======
-    <entry file="file://$PROJECT_DIR$/models/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
->>>>>>> ae49bee21215bdf8158c9434bda1c582b9e6d967
+        <state relative-caret-position="140">
+          <caret line="97" column="56" selection-start-line="97" selection-start-column="56" selection-end-line="97" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/pom.xml">
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/views/admin/users.jsp">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="170">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-=======
-        <state relative-caret-position="187">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
->>>>>>> ae49bee21215bdf8158c9434bda1c582b9e6d967
+        <state relative-caret-position="373">
+          <caret line="64" column="42" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>docs</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/javalab/marketing/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="90" column="42" selection-start-line="90" selection-start-column="42" selection-end-line="90" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

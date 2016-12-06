@@ -20,7 +20,7 @@ public class SupportManager {
     This method create support(question to admin) in account menu
      */
     public void createSupport(int iduser,String theme,String messageuser) throws SQLException {
-        PreparedStatement preparedStatement = connection.prepareStatement("insert supports set iduser=?,theme=?,messageuser=?", Statement.RETURN_GENERATED_KEYS);
+        PreparedStatement preparedStatement = connection.prepareStatement("insert into supports(iduser,theme,messageuser) VALUES(?,?,?)", Statement.RETURN_GENERATED_KEYS);
         preparedStatement.setInt(1, iduser);
         preparedStatement.setString(2,theme);
         preparedStatement.setString(3,messageuser);
@@ -31,7 +31,7 @@ public class SupportManager {
     }
 
     public void createSupportWithId(Support support) throws SQLException {
-        PreparedStatement preparedStatement = connection.prepareStatement("insert supports set id=?,iduser=?,theme=?,messageuser=?", Statement.RETURN_GENERATED_KEYS);
+        PreparedStatement preparedStatement = connection.prepareStatement("insert into supports(id,iduser,theme,messageuser) VALUES(?,?,?,?)", Statement.RETURN_GENERATED_KEYS);
         preparedStatement.setInt(1, support.getId());
         preparedStatement.setInt(2, support.getIduser());
         preparedStatement.setString(3,support.getTheme());

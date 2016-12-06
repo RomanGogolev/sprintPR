@@ -20,7 +20,7 @@ public class OrderManager {
     This method create order from user panel in account menu
      */
     public void createOrder(Order order) throws SQLException {
-        PreparedStatement preparedStatement = connection.prepareStatement("insert orders set userid=?,appname=?,hrefappstore=?,hrefplaymarket=?,service=?,count=?,price=?,state=?", Statement.RETURN_GENERATED_KEYS);
+        PreparedStatement preparedStatement = connection.prepareStatement("insert into orders(userid,appname,hrefappstore,hrefplaymarket,service,count,price,state) VALUES (?,?,?,?,?,?,?,?)", Statement.RETURN_GENERATED_KEYS);
         preparedStatement.setInt(1, order.getUserid());
         preparedStatement.setString(2,order.getAppname());
         preparedStatement.setString(3, order.getHrefappstore());
@@ -81,7 +81,7 @@ public class OrderManager {
     This method create order with id
      */
     public void createOrderWithId(Order order) throws SQLException {
-        PreparedStatement preparedStatement = connection.prepareStatement("insert orders set id=?,userid=?,appname=?,hrefappstore=?,hrefplaymarket=?,service=?,count=?,price=?,state=?", Statement.RETURN_GENERATED_KEYS);
+        PreparedStatement preparedStatement = connection.prepareStatement("insert into orders(id,userid,appname,hrefappstore,hrefplaymarket,service,count,price,state) VALUES (?,?,?,?,?,?,?,?,?)", Statement.RETURN_GENERATED_KEYS);
         preparedStatement.setInt(1, order.getId());
         preparedStatement.setInt(2, order.getUserid());
         preparedStatement.setString(3,order.getAppname());
